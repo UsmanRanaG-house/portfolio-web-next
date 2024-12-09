@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FaMale, FaShoppingCart } from 'react-icons/fa'
+import { FaMale} from 'react-icons/fa'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
